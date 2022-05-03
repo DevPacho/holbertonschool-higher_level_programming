@@ -2,7 +2,7 @@
 import random
 number = random.randint(-10000, 10000)
 if number < 0:
-    savenum = number % 10 * -1
+    savenum = number % -10
 if number >= 0:
     savenum = number % 10
 
