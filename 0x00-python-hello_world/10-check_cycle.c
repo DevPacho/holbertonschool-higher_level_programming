@@ -10,9 +10,10 @@ int check_cycle(listint_t *list)
 {
 	listint_t *aux1 = list, *aux2 = list;
 
-	for (; aux1;)
+	while (aux2 && aux1)
 	{
-		aux2 = aux2->next;
+		aux1 = aux1->next;
+		aux2 = aux2->next->next;
 		if (aux1 == aux2)
 			return (1);
 	}
