@@ -8,4 +8,4 @@ for a in range(1, 101):
     else:
         print(f"{a}", end="")
     if a != 100:
-        print(" ", end=" ")
+        print(" ")
