@@ -7,4 +7,4 @@ for a in range(1, 101):
     if a % 5 == 0:
         print("Buzz", end=" ")
     else:
-        print(f"{a}", end=" ")
+        print(a, end=" ")
