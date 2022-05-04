@@ -109,3 +109,220 @@ guillaume@ubuntu:~/0x01$</code></pre>
 </ul>
 <br>
 <h2>1. The last digit</h2>
+<p>This program will assign a random signed number to the variable&nbsp;<code>number</code> each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable&nbsp;<code>number</code>.</p>
+<ul>
+    <li>You can find the source code&nbsp;<a href="https://intranet.hbtn.io/rltoken/e9k9---MJXcMmIjlMdlBpw" target="_blank" title="here">here</a></li>
+    <li>The variable&nbsp;<code>number</code> will store a different value every time you will run this program</li>
+    <li>You don&rsquo;t have to understand what&nbsp;<code>import</code>,&nbsp;<code>random.randint</code> do.&nbsp;<strong>Please do not touch this code</strong>. This line should not change:&nbsp;<code>number = random.randint(-10000, 10000)</code></li>
+    <li>The output of the program should be:<ul>
+            <li>The string&nbsp;<code>Last digit of</code>, followed by</li>
+            <li>the number, followed by</li>
+            <li>the string&nbsp;<code>is</code>, followed by the last digit of&nbsp;<code>number</code>, followed by<ul>
+                    <li>if the last digit is greater than 5: the string&nbsp;<code>and is greater than 5</code></li>
+                    <li>if the last digit is 0: the string&nbsp;<code>and is 0</code></li>
+                    <li>if the last digit is less than 6 and not 0: the string&nbsp;<code>and is less than 6 and not 0</code></li>
+                </ul>
+            </li>
+            <li>followed by a new line</li>
+        </ul>
+    </li>
+</ul>
+<p><b><i><u>Output example:</u></i></b></p>
+<pre><code>guillaume@ubuntu:~/0x01$ ./1-last_digit.py
+Last digit of 4205 is 5 and is less than 6 and not 0
+guillaume@ubuntu:~/0x01$ ./1-last_digit.py
+Last digit of -626 is -6 and is less than 6 and not 0
+guillaume@ubuntu:~/0x01$ ./1-last_digit.py
+Last digit of 1144 is 4 and is less than 6 and not 0
+guillaume@ubuntu:~/0x01$ ./1-last_digit.py
+Last digit of -9200 is 0 and is 0
+guillaume@ubuntu:~/0x01$ ./1-last_digit.py
+Last digit of 5247 is 7 and is greater than 5
+guillaume@ubuntu:~/0x01$ ./1-last_digit.py
+Last digit of -9318 is -8 and is less than 6 and not 0
+guillaume@ubuntu:~/0x01$ ./1-last_digit.py
+Last digit of 3369 is 9 and is greater than 5
+guillaume@ubuntu:~/0x01$ ./1-last_digit.py
+Last digit of -5224 is -4 and is less than 6 and not 0
+guillaume@ubuntu:~/0x01$ ./1-last_digit.py
+Last digit of -4485 is -5 and is less than 6 and not 0
+guillaume@ubuntu:~/0x01$ ./1-last_digit.py
+Last digit of 3850 is 0 and is 0
+guillaume@ubuntu:~/0x01$ ./1-last_digit.py
+Last digit of 5169 is 9 and is greater than 5
+guillaume@ubuntu:~/0x01$</code></pre>
+<ul>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/1-last_digit.py" target="_blank">1-last_digit.py</b></i></a></code></li>
+</ul>
+<br>
+<h2>2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game</h2>
+<p>Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.</p>
+<ul>
+    <li>You can only use one <code>print</code> function</li>
+    <li>You can only use one loop in your code</li>
+    <li>You are not allowed to store characters in a variable</li>
+    <li>You are not allowed to import any module</li>
+</ul>
+<p><b><i><u>Output example:</u></i></b></p>
+<pre><code>guillaume@ubuntu:~/0x01$ ./2-print_alphabet.py
+abcdefghijklmnopqrstuvwxyzguillaume@ubuntu:~/0x01$</code></pre>
+<ul>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/2-print_alphabet.py" target="_blank">2-print_alphabet.py</b></i></a></code></li>
+</ul>
+<br>
+<h2>3. When I was having that alphabet soup, I never thought that it would pay off</h2>
+<p>Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.</p>
+<ul>
+    <li>Print all the letters except <code>q</code> and <code>e</code></li>
+    <li>You can only use one <code>print</code> function</li>
+    <li>You can only use one loop in your code</li>
+    <li>You are not allowed to store characters in a variable</li>
+    <li>You are not allowed to import any module</li>
+</ul>
+<p><b><i><u>Output example:</u></i></b></p>
+<pre><code>guillaume@ubuntu:~/0x01$ ./3-print_alphabt.py
+abcdfghijklmnoprstuvwxyzguillaume@ubuntu:~/0x01$</code></pre>
+<ul>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/3-print_alphabt.py" target="_blank">3-print_alphabt.py</b></i></a></code></li>
+</ul>
+<br>
+<h2>4. Hexadecimal printing</h2>
+<p>Write a program that prints all numbers from <code>0</code> to <code>98</code> in decimal and in hexadecimal (as in the following example)</p>
+<ul>
+    <li>You can only use one <code>print</code> function</li>
+    <li>You can only use one loop in your code</li>
+    <li>You are not allowed to store numbers or strings in a variable</li>
+    <li>You are not allowed to import any module</li>
+</ul>
+<p><b><i><u>Output example:</u></i></b></p>
+<pre><code>guillaume@ubuntu:~/0x01$ ./4-print_hexa.py
+0 = 0x0
+1 = 0x1
+2 = 0x2
+3 = 0x3
+4 = 0x4
+5 = 0x5
+6 = 0x6
+7 = 0x7
+8 = 0x8
+9 = 0x9
+10 = 0xa
+11 = 0xb
+12 = 0xc
+13 = 0xd
+14 = 0xe
+15 = 0xf
+16 = 0x10
+17 = 0x11
+18 = 0x12
+...
+96 = 0x60
+97 = 0x61
+98 = 0x62
+guillaume@ubuntu:~/0x01$</code></pre>
+<ul>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/4-print_hexa.py" target="_blank">4-print_hexa.py</b></i></a></code></li>
+</ul>
+<br>
+<h2>5. 00...99</h2>
+<p>Write a program that prints numbers from <code>0</code> to <code>99</code>.</p>
+<ul>
+    <li>Numbers must be separated by <code>,</code>, followed by a space</li>
+    <li>Numbers should be printed in ascending order, with two digits</li>
+    <li>The last number should be followed by a new line</li>
+    <li>You can only use no more than 2 <code>print</code> functions</li>
+    <li>You can only use one loop in your code</li>
+    <li>You are not allowed to store numbers or strings in a variable</li>
+    <li>You are not allowed to import any module</li>
+</ul>
+<p><b><i><u>Output example:</u></i></b></p>
+<pre><code>guillaume@ubuntu:~/0x01$ ./5-print_comb2.py
+00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99
+guillaume@ubuntu:~/0x01$</code></pre>
+<ul>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/5-print_comb2.py" target="_blank">5-print_comb2.py</b></i></a></code></li>
+</ul>
+<br>
+<h2>6. Inventing is a combination of brains and materials. The more brains you use, the less material you need</h2>
+<p>Write a program that prints all possible different combinations of two digits.</p>
+<ul>
+    <li>Numbers must be separated by&nbsp;<code>,</code>, followed by a space</li>
+    <li>The two digits must be different</li>
+    <li><code>01</code> and&nbsp;<code>10</code> are considered the same combination of the two digits&nbsp;<code>0</code> and&nbsp;<code>1</code></li>
+    <li>Print only the smallest combination of two digits</li>
+    <li>Numbers should be printed in ascending order, with two digits</li>
+    <li>The last number should be followed by a new line</li>
+    <li>You can only use no more than 3&nbsp;<code>print</code> functions</li>
+    <li>You can only use no more than 2 loops in your code</li>
+    <li>You are not allowed to store numbers or strings in a variable</li>
+    <li>You are not allowed to import any module</li>
+</ul>
+<p><b><i><u>Output example:</u></i></b></p>
+<pre><code>guillaume@ubuntu:~/0x01$ ./6-print_comb3.py
+01, 02, 03, 04, 05, 06, 07, 08, 09, 12, 13, 14, 15, 16, 17, 18, 19, 23, 24, 25, 26, 27, 28, 29, 34, 35, 36, 37, 38, 39, 45, 46, 47, 48, 49, 56, 57, 58, 59, 67, 68, 69, 78, 79, 89
+guillaume@ubuntu:~/0x01$</code></pre>
+<ul>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/6-print_comb3.py" target="_blank">6-print_comb3.py</b></i></a></code></li>
+</ul>
+<br>
+<h2>7. islower</h2>
+<p>Write a function that checks for lowercase character.</p>
+<ul>
+    <li>Prototype:&nbsp;<code>def islower(c):</code></li>
+    <li>Returns&nbsp;<code>True</code> if&nbsp;<code>c</code> is lowercase</li>
+    <li>Returns&nbsp;<code>False</code> otherwise</li>
+    <li>You are not allowed to import any module</li>
+    <li>You are not allowed to use&nbsp;<code>str.upper()</code> and&nbsp;<code>str.isupper()</code></li>
+    <li><a href="https://intranet.hbtn.io/rltoken/Wqb18-TGOnY9dZAWrWX03A" target="_blank" title="Tips: ord()">Tips: ord()</a></li>
+</ul>
+<p>You don&rsquo;t need to understand&nbsp;<code>__import__</code></p>
+<p><b><i><u>Output example:</u></i></b></p>
+<pre><code>guillaume@ubuntu:~/0x01$ cat 7-main.py
+#!/usr/bin/env python3
+islower = __import__('7-islower').islower
+
+print(f'a is {"lower" if islower("a") else "upper"}')
+print(f'H is {"lower" if islower("H") else "upper"}')
+print(f'A is {"lower" if islower("A") else "upper"}')
+print(f'3 is {"lower" if islower("3") else "upper"}')
+print(f'g is {"lower" if islower("g") else "upper"}')
+
+guillaume@ubuntu:~/0x01$ ./7-main.py
+a is lower
+H is upper
+A is upper
+3 is upper
+g is lower
+guillaume@ubuntu:~/0x01$</code></pre>
+<ul>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/7-islower.py" target="_blank">7-islower.py</b></i></a></code></li>
+</ul>
+<br>
+<h2>8. To uppercase</h2>
+<p>Write a function that prints a string in uppercase, followed by a new line.</p>
+<ul>
+    <li>Prototype:&nbsp;<code>def uppercase(str):</code></li>
+    <li>You can only use no more than 2 <code>print</code> functions</li>
+    <li>You can only use one lopp in your code</li>
+    <li>You are not allowed to import any module</li>
+    <li>You are not allowed to use&nbsp;<code>str.upper()</code> and&nbsp;<code>str.isupper()</code></li>
+    <li><a href="https://intranet.hbtn.io/rltoken/Wqb18-TGOnY9dZAWrWX03A" target="_blank" title="Tips: ord()">Tips: ord()</a></li>
+</ul>
+<p>You don&rsquo;t need to understand&nbsp;<code>__import__</code></p>
+<p><b><i><u>Output example:</u></i></b></p>
+<pre><code>guillaume@ubuntu:~/0x01$ cat 8-main.py
+#!/usr/bin/env python3
+uppercase = __import__('8-uppercase').uppercase
+
+uppercase("best")
+uppercase("Best School 98 Battery street")
+
+guillaume@ubuntu:~/0x01$ ./8-main.py
+BEST
+BEST SCHOOL 98 BATTERY STREET
+guillaume@ubuntu:~/0x01$</code></pre>
+<ul>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/8-uppercase.py" target="_blank">8-uppercase.py</b></i></a></code></li>
+</ul>
+<br>
+<h2>9. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important</h2>
