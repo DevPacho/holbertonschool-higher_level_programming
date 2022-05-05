@@ -24,14 +24,11 @@ listint_t *insert_node(listint_t **head, int number)
 		*head = newnode;
 		return (newnode);
 	}
-	else
-	{
-		while (tosave->next && tosave != NULL && tosave->n < number)
-			tosave = tosave->next;
-		newnode->next = tosave->next;
-		tosave->next = newnode;
 
-	}
+	while (tosave->next && tosave != NULL && tosave->n < number)
+		tosave = tosave->next;
+	newnode->next = tosave->next;
+	tosave->next = newnode;
 
 	return (newnode);
 }
