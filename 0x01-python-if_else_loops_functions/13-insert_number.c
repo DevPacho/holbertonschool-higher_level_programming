@@ -21,7 +21,7 @@ listint_t *insert_node(listint_t **head, int number)
 	if (!tosave || tosave->n >= number)
 	{
 		newnode->next = tosave;
-		tosave = newnode;
+		*head = newnode;
 		return (newnode);
 	}
 	else
