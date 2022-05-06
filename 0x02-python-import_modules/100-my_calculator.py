@@ -5,12 +5,13 @@ from sys import argv
 if __name__ == "__main__":
     a = int(argv[1])
     b = int(argv[3])
+    ops = "+-/*"
 
     if argv != 4:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
 
-    if argv[2] != "+-*/":
+    if argv[2] != ops:
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
 
