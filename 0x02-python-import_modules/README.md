@@ -219,7 +219,7 @@ guillaume@ubuntu:~/0x02$</code></pre>
 guillaume@ubuntu:~/0x02$</code></pre>
 <p>Remember how you did (or did not) do it in C? <code>#pythoniscool</code></p>
 
-<img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/9/621c6dd72e1acff708141f3fab6dfa6ff37c5ee6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220506%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220506T163639Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=39a7dfc1f000bff261f6d7b138a3fea6fee5d13d44c0dfe9fe1e36c8504f9de9">
+![image](https://user-images.githubusercontent.com/98773774/167204226-37c32521-c7bc-4f96-b927-d2ec93dc438c.png)
 
 <ul>
     <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/3-infinite_add.py" target="_blank">3-infinite_add.py</b></i></a></code></li>
@@ -295,69 +295,71 @@ guillaume@ubuntu:~/0x02$</code></pre>
     </li>
 </ul>
 <p><b><i><u>Output example:</u></i></b></p>
-<pre><code>guillaume@ubuntu:~/0x02$ cat calculator_1.py
-#!/usr/bin/python3
-def add(a, b):
-    """My addition function
+<p><b><i><u><code>cat calculator_1.py</code></u></i> :</b></p>
 
-    Args:
-        a: first integer
-        b: second integer
+![image](https://user-images.githubusercontent.com/98773774/167200001-c337ec41-6cf3-424b-a476-9a7b19852c1d.png)
 
-    Returns:
-        The return value. a + b
-    """
-    return (a + b)
+![image](https://user-images.githubusercontent.com/98773774/167200247-425eb477-8dbc-43ea-b283-1bd7964bebdc.png)
 
 
-def sub(a, b):
-    """My subtraction function
-
-    Args:
-        a: first integer
-        b: second integer
-
-    Returns:
-        The return value. a - b
-    """
-    return (a - b)
-
-
-def mul(a, b):
-    """My multiplication function
-
-    Args:
-        a: first integer
-        b: second integer
-
-    Returns:
-        The return value. a * b
-    """
-    return (a * b)
-
-
-def div(a, b):
-    """My division function
-
-    Args:
-        a: first integer
-        b: second integer
-
-    Returns:
-        The return value. a / b
-    """
-    return int(a / b)
-
-guillaume@ubuntu:~/0x02$ ./100-my_calculator.py ; echo $?
-Usage: ./100-my_calculator.py <a> <operator> <b>
-1
-guillaume@ubuntu:~/0x02$ ./100-my_calculator.py 3 + 5 ; echo $?
-3 + 5 = 8
-0
-guillaume@ubuntu:~/0x02$ ./100-my_calculator.py 3 H 5 ; echo $?
-Unknown operator. Available operators: +, -, * and /
-1
-guillaume@ubuntu:~/0x02$</code></pre>
 <ul>
     <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/100-my_calculator.py" target="_blank">100-my_calculator.py</b></i></a></code></li>
 </ul>
+<br>
+<h2>7. Easy print</h2>
+<p><b><i>Advanced task</i></b><p>
+<p>Write a program that prints <code>#pythoniscool</code>, followed by a new line, in the standard output.</p>
+<ul>
+    <li>Your program should be maximum 2 lines long</li>
+    <li>You are not allowed to use <code>print</code> or <code>eval</code> or <code>open</code> or <code>import sys</code> in your file <code>101-easy_print.py</code></li>
+</ul>
+<p><b><i><u>Output example:</u></i></b></p>
+<pre><code>guillaume@ubuntu:~/0x02$ ./101-easy_print.py
+#pythoniscool
+guillaume@ubuntu:~/0x02$</code></pre>
+<ul>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/101-easy_print.py" target="_blank">101-easy_print.py</b></i></a></code></li>
+</ul>
+<br>
+<h2>8. ByteCode -> Python #3</h2>
+<p><b><i>Advanced task</i></b><p>
+<p>Write the Python function <code>def magic_calculation(a, b):</code> that does exactly the same as the following Python bytecode:</p>
+
+![image](https://user-images.githubusercontent.com/98773774/167202932-26fa01fa-72b8-44ee-9af9-bcf88e0b8aa0.png)
+![image](https://user-images.githubusercontent.com/98773774/167203047-808c8ab2-360e-45e9-baf7-cef8f3f68188.png)
+
+<ul>
+    <li><b>Tip:</b>&nbsp;<a href="https://intranet.hbtn.io/rltoken/FYK4MePotTrqXCfiKYxL7Q" target="_blank" title="Python bytecode">Python bytecode</a></li>
+</ul>
+<ul>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/102-magic_calculation.py" target="_blank">102-magic_calculation.py</b></i></a></code></li>
+</ul>
+<br>
+<h2>9. Fast alphabet</h2>
+<p><b><i>Advanced task</i></b><p>
+<p>Write a program that prints the alphabet in uppercase, followed by a new line.</p>
+<ul>
+    <li>Your program should be maximum 3 lines long</li>
+    <li>You are not allowed to use:<ul>
+            <li>any loops</li>
+            <li>any conditional statements</li>
+            <li><code>str.join()</code></li>
+            <li>any string literal</li>
+            <li>any system calls</li>
+        </ul>
+    </li>
+</ul>
+<p><b><i><u>Output example:</u></i></b></p>
+<pre><code>guillaume@ubuntu:~/0x02$ ./103-fast_alphabet.py
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+guillaume@ubuntu:~/0x02$ wc -l 103-fast_alphabet.py
+3 103-fast_alphabet.py
+guillaume@ubuntu:~/0x02$</code></pre>
+<ul>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/103-fast_alphabet.py" target="_blank">103-fast_alphabet.py</b></i></a></code> , <b>Help file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/fastalphabetUP.py" target="_blank">fastalphabetUP.py</b></i></a></code></li>
+</ul>
+<br>
+<h2>License & Copyright</h2>
+<i>©. Project provided by: <a href="https://www.holbertonschool.com/" target="_blank"><b>Holberton School</a></i></b>
+<br>
+<i>©. Project developed by:<b> Francisco Ramírez </b><b>|&nbsp;<a href="https://github.com/FranRM15" target="_blank"> GitHub</a> <b>|</b>&nbsp;<a href="https://twitter.com/FranciscoR_15" target = "_blank" rel="nofollow"> Twitter</b></a></p>
