@@ -81,3 +81,82 @@ guillaume@ubuntu:~/0x02$</code></pre>
 <ul>
     <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/0-add.py" target="_blank">0-add.py</b></i></a></code></li>
 </ul>
+<br>
+<h2>1. My first toolbox!</h2>
+<p>Write a program that imports functions from the file&nbsp;<code>calculator_1.py</code>, does some Maths, and prints the result.</p>
+<ul>
+    <li>Do not use the function&nbsp;<code>print</code> more than 4 times</li>
+    <li>You have to define:<ul>
+            <li>the value&nbsp;<code>10</code> to a variable&nbsp;<code>a</code></li>
+            <li>the value&nbsp;<code>5</code> to a variable&nbsp;<code>b</code></li>
+            <li>and use those two variables only, as arguments when calling functions (including&nbsp;<code>print</code>)</li>
+        </ul>
+    </li>
+    <li><code>a</code> and&nbsp;<code>b</code> must be defined in 2 different lines:&nbsp;<code>a = 10</code> and another&nbsp;<code>b = 5</code></li>
+    <li>Your program should call each of the imported functions. See example below for format</li>
+    <li>the word&nbsp;<code>calculator_1</code> should be used only once in your file</li>
+    <li>You are not allowed to use&nbsp;<code>*</code> for importing or&nbsp;<code>__import__</code></li>
+    <li>Your code should not be executed when imported</li>
+</ul>
+<pre><code>guillaume@ubuntu:~/0x02$ cat calculator_1.py
+#!/usr/bin/python3
+def add(a, b):
+    """My addition function
+
+    Args:
+        a: first integer
+        b: second integer
+
+    Returns:
+        The return value. a + b
+    """
+    return (a + b)
+
+
+def sub(a, b):
+    """My subtraction function
+
+    Args:
+        a: first integer
+        b: second integer
+
+    Returns:
+        The return value. a - b
+    """
+    return (a - b)
+
+
+def mul(a, b):
+    """My multiplication function
+
+    Args:
+        a: first integer
+        b: second integer
+
+    Returns:
+        The return value. a * b
+    """
+    return (a * b)
+
+
+def div(a, b):
+    """My division function
+
+    Args:
+        a: first integer
+        b: second integer
+
+    Returns:
+        The return value. a / b
+    """
+    return int(a / b)
+
+guillaume@ubuntu:~/0x02$ ./1-calculation.py
+10 + 5 = 15
+10 - 5 = 5
+10 * 5 = 50
+10 / 5 = 2
+guillaume@ubuntu:~/0x02$</code></pre>
+<ul>
+    <li><b>Solution file:</b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/1-calculation.py" target="_blank">1-calculation.py</b></i></a></code></li>
+</ul>
