@@ -67,7 +67,7 @@
 <p><em><b>Note</b></em>: you do not need to understand lists yet.</p>
 <br>
 <h1>✅ Tasks ✅</h1>
-<p>This project is made up of mandatory and optional tasks, <b>⬇️ <code>look at them!</code></b> ⬇️</p>
+<p>This project is made up of mandatory and optional tasks (<b><i><code>Advanced task</code></i></b>), <b>⬇️ <code>look at them!</code></b> ⬇️</p>
 <br>
 <h2>0. Positive anything is better than negative nothing</h2>
 <p>This program will assign a random signed number to the variable&nbsp;<code>number</code> each time it is executed. Complete the source code in order to print whether the number stored in the variable&nbsp;<code>number</code> is positive or negative.</p>
@@ -434,7 +434,7 @@ guillaume@ubuntu:~/0x01$</code></pre>
 </ul>
 <br>
 <h2>13. Insert in sorted linked list</h2>
-<p><strong>Technical interview preparation</strong>:</p>
+<p><strong><code>Technical interview preparation:</code></strong></p>
 <ul>
     <li>You are not allowed to google anything</li>
     <li>Whiteboard first</li>
@@ -631,7 +631,7 @@ carrie@ubuntu:0x01$</pre>
 </ul>
 <br>
 <h2>14. Smile in the mirror</h2>
-<p><b><i>Advanced task</i></b><p>
+<p><b><i><code>Advanced task</code></i></b><p>
 <p>Write a program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (<code>z</code> in lowercase and&nbsp;<code>Y</code> in uppercase) , not followed by a new line.</p>
 <ul>
     <li>You can only use one&nbsp;<code>print</code> function</li>
@@ -647,7 +647,7 @@ zYxWvUtSrQpOnMlKjIhGfEdCbAguillaume@ubuntu:~/0x01$</pre>
 </ul>
 <br>
 <h2>15. Remove at position</h2>
-<p><b><i>Advanced task</i></b><p>
+<p><b><i><code>Advanced task</code></i></b><p>
 <p>Write a function that creates a copy of the string, removing the character at the position <code>n</code> (not the Python way, the “C array index”).</p>
 <ul>
     <li>Prototype: <code>def remove_char_at(str, n):</code></li>
@@ -677,7 +677,7 @@ guillaume@ubuntu:~/0x01$</code></pre>
 </ul>
 <br>
 <h2>16. ByteCode -> Python #2</h2>
-<p><b><i>Advanced task</i></b><p>
+<p><b><i><code>Advanced task</code></i></b><p>
 <p>Write the Python function <code>def magic_calculation(a, b, c):</code> that does exactly the same as the following Python bytecode:</p>
 
 ![image](https://user-images.githubusercontent.com/98773774/166865757-2ac28ec0-0233-42d0-aa25-3384dbfa77a8.png)
@@ -692,4 +692,4 @@ guillaume@ubuntu:~/0x01$</code></pre>
 <h2>License & Copyright</h2>
 <i>©. Project provided by: <a href="https://www.holbertonschool.com/" target="_blank"><b>Holberton School</a></i></b>
 <br>
-<i>©. Project developed by:<b> Francisco Ramírez </b><b>|&nbsp;<a href="https://github.com/FranRM15" target="_blank"> GitHub</a> <b>|</b>&nbsp;<a href="https://twitter.com/FranciscoR_15" target = "_blank" rel="nofollow"> Twitter</b></a></p>             
+<i>©. Project developed by:<b> Francisco Ramírez </b><b>|&nbsp;<a href="https://github.com/FranRM15" target="_blank"> GitHub</a> <b>|</b>&nbsp;<a href="https://twitter.com/FranciscoR_15" target = "_blank" rel="nofollow"> Twitter</b></a></p>
