@@ -107,7 +107,7 @@ Namespaces are one honking great idea -- let&apos;s do more of those!
 <p><code>Pycodestyle</code> is now the&nbsp;<a href="https://intranet.hbtn.io/rltoken/D67mmHg2X9ZI7QHlQxayyw" target="_blank" title="new standard of Python style code">new standard of Python style code</a></p>
 <br>
 <h1>✅ Tasks ✅</h1>
-<p>This project is made up of mandatory and optional tasks, <b>⬇️ <code>look at them!</code></b> ⬇️</p>
+<p>This project is made up of mandatory and optional tasks (<b><i><code>Advanced task</code></i></b>), <b>⬇️ <code>look at them!</code></b> ⬇️</p>
 <br>
 <h2>0. Run Python file</h2>
 <p>Write a Shell script that runs a Python script.</p>
@@ -491,7 +491,7 @@ carrie@ubuntu:~/0x00$</code></pre>
 </ul>
 <br>
 <h2>11. Hello, write</h2>
-<p><b><i>Advanced task</i></b><p>
+<p><b><i><code>Advanced task</code></i></b></p>
 <p>Write a Python script that prints exactly&nbsp;<code>and that piece of art is useful - Dora Korpar, 2015-10-19</code>, followed by a new line.</p>
 <ul>
     <li>Use the function&nbsp;<code>write</code> from the&nbsp;<code>sys</code> module</li>
@@ -513,7 +513,7 @@ guillaume@ubuntu:~/py/0x00$</code></pre>
 </ul>
 <br>
 <h2>12. Compile</h2>
-<p><b><i>Advanced task</i></b><p>
+<p><b><i><code>Advanced task</code></i></b></p>
 <p>Write a script that compiles a Python script file.</p>
 <p>The Python file name will be stored in the environment variable <code>$PYFILE</code></p>
 <p>The output filename has to be <code>$PYFILEc</code> (ex: export <code>PYFILE=my_main.py</code> => output filename: <code>my_main.pyc</code>)</p>
@@ -544,7 +544,7 @@ guillaume@ubuntu:~/py/0x00$</code></pre>
     <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/101-compile" target="_blank">101-compile</b></i></a></code> ✅</li>
 </ul>
 <br>
-<h2>13. ByteCode -> Python #1</h2>
+<p><b><i><code>Advanced task</code></i></b></p>
 <p><b><i>Advanced task</i></b><p>
 <p>Write the Python function <code>def magic_calculation(a, b):</code> that does exactly the same as the following Python bytecode:</p>
 <pre><code>  3           0 LOAD_CONST               1 (98)
