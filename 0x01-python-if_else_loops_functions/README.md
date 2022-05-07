@@ -66,7 +66,9 @@
 <h2>More Info</h2>
 <p><em><b>Note</b></em>: you do not need to understand lists yet.</p>
 <br>
-<h1>Tasks</h1>
+<h1>✅ Tasks ✅</h1>
+<p>This project is made up of mandatory and optional tasks, <b>⬇️ <code>look at them!</code></b> ⬇️</p>
+<br>
 <h2>0. Positive anything is better than negative nothing</h2>
 <p>This program will assign a random signed number to the variable&nbsp;<code>number</code> each time it is executed. Complete the source code in order to print whether the number stored in the variable&nbsp;<code>number</code> is positive or negative.</p>
 <ul>
@@ -105,7 +107,7 @@ guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py
 5 is positive
 guillaume@ubuntu:~/0x01$</code></pre>
 <ul>
-    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/0-positive_or_negative.py" target="_blank">0-positive_or_negative.py</b></i></a></code></li>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/0-positive_or_negative.py" target="_blank">0-positive_or_negative.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>1. The last digit</h2>
@@ -152,7 +154,7 @@ guillaume@ubuntu:~/0x01$ ./1-last_digit.py
 Last digit of 5169 is 9 and is greater than 5
 guillaume@ubuntu:~/0x01$</code></pre>
 <ul>
-    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/1-last_digit.py" target="_blank">1-last_digit.py</b></i></a></code></li>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/1-last_digit.py" target="_blank">1-last_digit.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game</h2>
@@ -167,7 +169,7 @@ guillaume@ubuntu:~/0x01$</code></pre>
 <pre><code>guillaume@ubuntu:~/0x01$ ./2-print_alphabet.py
 abcdefghijklmnopqrstuvwxyzguillaume@ubuntu:~/0x01$</code></pre>
 <ul>
-    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/2-print_alphabet.py" target="_blank">2-print_alphabet.py</b></i></a></code></li>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/2-print_alphabet.py" target="_blank">2-print_alphabet.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>3. When I was having that alphabet soup, I never thought that it would pay off</h2>
@@ -183,7 +185,7 @@ abcdefghijklmnopqrstuvwxyzguillaume@ubuntu:~/0x01$</code></pre>
 <pre><code>guillaume@ubuntu:~/0x01$ ./3-print_alphabt.py
 abcdfghijklmnoprstuvwxyzguillaume@ubuntu:~/0x01$</code></pre>
 <ul>
-    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/3-print_alphabt.py" target="_blank">3-print_alphabt.py</b></i></a></code></li>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/3-print_alphabt.py" target="_blank">3-print_alphabt.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>4. Hexadecimal printing</h2>
@@ -221,7 +223,7 @@ abcdfghijklmnoprstuvwxyzguillaume@ubuntu:~/0x01$</code></pre>
 98 = 0x62
 guillaume@ubuntu:~/0x01$</code></pre>
 <ul>
-    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/4-print_hexa.py" target="_blank">4-print_hexa.py</b></i></a></code></li>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/4-print_hexa.py" target="_blank">4-print_hexa.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>5. 00...99</h2>
@@ -240,7 +242,7 @@ guillaume@ubuntu:~/0x01$</code></pre>
 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99
 guillaume@ubuntu:~/0x01$</code></pre>
 <ul>
-    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/5-print_comb2.py" target="_blank">5-print_comb2.py</b></i></a></code></li>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/5-print_comb2.py" target="_blank">5-print_comb2.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>6. Inventing is a combination of brains and materials. The more brains you use, the less material you need</h2>
@@ -262,7 +264,7 @@ guillaume@ubuntu:~/0x01$</code></pre>
 01, 02, 03, 04, 05, 06, 07, 08, 09, 12, 13, 14, 15, 16, 17, 18, 19, 23, 24, 25, 26, 27, 28, 29, 34, 35, 36, 37, 38, 39, 45, 46, 47, 48, 49, 56, 57, 58, 59, 67, 68, 69, 78, 79, 89
 guillaume@ubuntu:~/0x01$</code></pre>
 <ul>
-    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/6-print_comb3.py" target="_blank">6-print_comb3.py</b></i></a></code></li>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/6-print_comb3.py" target="_blank">6-print_comb3.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>7. islower</h2>
@@ -280,13 +282,13 @@ guillaume@ubuntu:~/0x01$</code></pre>
 <pre><code>guillaume@ubuntu:~/0x01$ cat 7-main.py
 #!/usr/bin/env python3
 islower = __import__('7-islower').islower
-
+<br>
 print(f'a is {"lower" if islower("a") else "upper"}')
 print(f'H is {"lower" if islower("H") else "upper"}')
 print(f'A is {"lower" if islower("A") else "upper"}')
 print(f'3 is {"lower" if islower("3") else "upper"}')
 print(f'g is {"lower" if islower("g") else "upper"}')
-
+<br>
 guillaume@ubuntu:~/0x01$ ./7-main.py
 a is lower
 H is upper
@@ -295,7 +297,7 @@ A is upper
 g is lower
 guillaume@ubuntu:~/0x01$</code></pre>
 <ul>
-    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/7-islower.py" target="_blank">7-islower.py</b></i></a></code></li>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/7-islower.py" target="_blank">7-islower.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>8. To uppercase</h2>
@@ -313,16 +315,16 @@ guillaume@ubuntu:~/0x01$</code></pre>
 <pre><code>guillaume@ubuntu:~/0x01$ cat 8-main.py
 #!/usr/bin/env python3
 uppercase = __import__('8-uppercase').uppercase
-
+<br>
 uppercase("best")
 uppercase("Best School 98 Battery street")
-
+<br>
 guillaume@ubuntu:~/0x01$ ./8-main.py
 BEST
 BEST SCHOOL 98 BATTERY STREET
 guillaume@ubuntu:~/0x01$</code></pre>
 <ul>
-    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/8-uppercase.py" target="_blank">8-uppercase.py</b></i></a></code></li>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/8-uppercase.py" target="_blank">8-uppercase.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>9. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important</h2>
@@ -337,17 +339,17 @@ guillaume@ubuntu:~/0x01$</code></pre>
 <pre><code>guillaume@ubuntu:~/0x01$ cat 9-main.py
 #!/usr/bin/env python3
 print_last_digit = __import__('9-print_last_digit').print_last_digit
-
+<br>
 print_last_digit(98)
 print_last_digit(0)
 r = print_last_digit(-1024)
 print(r)
-
+<br>
 guillaume@ubuntu:~/0x01$ ./9-main.py
 8044
 guillaume@ubuntu:~/0x01$</code></pre>
 <ul>
-    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/9-print_last_digit.py" target="_blank">9-print_last_digit.py</b></i></a></code></li>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/9-print_last_digit.py" target="_blank">9-print_last_digit.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>10. a + b</h2>
@@ -362,18 +364,18 @@ guillaume@ubuntu:~/0x01$</code></pre>
 <pre><code>guillaume@ubuntu:~/0x01$ cat 10-main.py
 #!/usr/bin/env python3
 add = __import__('10-add').add
-
+<br>
 print(add(1, 2))
 print(add(98, 0))
 print(add(100, -2))
-
+<br>
 guillaume@ubuntu:~/0x01$ ./10-main.py
 3
 98
 98
 guillaume@ubuntu:~/0x01$</code></pre>
 <ul>
-    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/10-add.py" target="_blank">10-add.py</b></i></a></code></li>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/10-add.py" target="_blank">10-add.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>11. a ^ b</h2>
@@ -388,13 +390,13 @@ guillaume@ubuntu:~/0x01$</code></pre>
 <pre><code>guillaume@ubuntu:~/0x01$ cat 11-main.py
 #!/usr/bin/env python3
 pow = __import__('11-pow').pow
-
+<br>
 print(pow(2, 2))
 print(pow(98, 2))
 print(pow(98, 0))
 print(pow(100, -2))
 print(pow(-4, 5))
-
+<br>
 guillaume@ubuntu:~/0x01$ ./11-main.py
 4
 9604
@@ -403,7 +405,7 @@ guillaume@ubuntu:~/0x01$ ./11-main.py
 -1024
 guillaume@ubuntu:~/0x01$</code></pre>
 <ul>
-    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/11-pow.py" target="_blank">11-pow.py</b></i></a></code></li>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/11-pow.py" target="_blank">11-pow.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>12. Fizz Buzz</h2>
@@ -420,15 +422,15 @@ guillaume@ubuntu:~/0x01$</code></pre>
 <pre><code>guillaume@ubuntu:~/0x01$ cat 12-main.py
 #!/usr/bin/env python3
 fizzbuzz = __import__('12-fizzbuzz').fizzbuzz
-
+<br>
 fizzbuzz()
 print("")
-
+<br>
 guillaume@ubuntu:~/0x01$ ./12-main.py | cat -e
 1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 16 17 Fizz 19 Buzz Fizz 22 23 Fizz Buzz 26 Fizz 28 29 FizzBuzz 31 32 Fizz 34 Buzz Fizz 37 38 Fizz Buzz 41 Fizz 43 44 FizzBuzz 46 47 Fizz 49 Buzz Fizz 52 53 Fizz Buzz 56 Fizz 58 59 FizzBuzz 61 62 Fizz 64 Buzz Fizz 67 68 Fizz Buzz 71 Fizz 73 74 FizzBuzz 76 77 Fizz 79 Buzz Fizz 82 83 Fizz Buzz 86 Fizz 88 89 FizzBuzz 91 92 Fizz 94 Buzz Fizz 97 98 Fizz Buzz $
 guillaume@ubuntu:~/0x01$</code></pre>
 <ul>
-    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/12-fizzbuzz.py" target="_blank">12-fizzbuzz.py</b></i></a></code></li>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/12-fizzbuzz.py" target="_blank">12-fizzbuzz.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>13. Insert in sorted linked list</h2>
@@ -445,7 +447,7 @@ guillaume@ubuntu:~/0x01$</code></pre>
 <pre><code>carrie@ubuntu:0x01$ cat lists.h 
 #ifndef LISTS_H
 #define LISTS_H
-
+<br>
 /**
  * struct listint_s - singly linked list
  * @n: integer
@@ -454,34 +456,35 @@ guillaume@ubuntu:~/0x01$</code></pre>
  * Description: singly linked list node structure
  *
  */
+<br> 
 typedef struct listint_s
 {
     int n;
     struct listint_s *next;
 } listint_t;
-
+<br>
 size_t print_listint(const listint_t *h);
 listint_t *add_nodeint_end(listint_t **head, const int n);
 void free_listint(listint_t *head);
-
 listint_t *insert_node(listint_t **head, int number);
-
+<br>
 #endif /* LISTS_H */</code></pre>
 <pre><code>carrie@ubuntu:0x01$ cat linked_lists.c 
-#include <stdio.h>
-#include <stdlib.h>
+#include &ltstdio.h&gt
+#include &ltstdlib.h&gt
 #include "lists.h"
-
+<br>
 /**
  * print_listint - prints all elements of a listint_t list
  * @h: pointer to head of list
  * Return: number of nodes
  */
+<br> 
 size_t print_listint(const listint_t *h)
 {
     const listint_t *current;
     unsigned int n; /* number of nodes */
-
+<br>
     current = h;
     n = 0;
     while (current != NULL)
@@ -490,30 +493,31 @@ size_t print_listint(const listint_t *h)
         current = current->next;
         n++;
     }
-
+<br>
     return (n);
 }
-
+<br>
 /**
  * add_nodeint_end - adds a new node at the end of a listint_t list
  * @head: pointer to pointer of first node of listint_t list
  * @n: integer to be included in new node
  * Return: address of the new element or NULL if it fails
  */
+<br> 
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
     listint_t *new;
     listint_t *current;
-
+<br>
     current = *head;
-
+<br>
     new = malloc(sizeof(listint_t));
     if (new == NULL)
         return (NULL);
-
+<br>
     new->n = n;
     new->next = NULL;
-
+<br>
     if (*head == NULL)
         *head = new;
     else
@@ -522,19 +526,20 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
             current = current->next;
         current->next = new;
     }
-
+<br>
     return (new);
 }
-
+<br>
 /**
  * free_listint - frees a listint_t list
  * @head: pointer to list to be freed
  * Return: void
  */
+<br> 
 void free_listint(listint_t *head)
 {
     listint_t *current;
-
+<br>
     while (head != NULL)
     {
         current = head;
@@ -543,20 +548,21 @@ void free_listint(listint_t *head)
     }
 }</code></pre>
 <pre><code>carrie@ubuntu:0x01$ cat 13-main.c 
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
+#include &ltstdio.h&gt
+#include &string.h&gt
+#include &ltstdlib.h&gt
 #include "lists.h"
-
+<br>
 /**
  * main - check the code for
  *
  * Return: Always 0.
  */
+<br> 
 int main(void)
 {
     listint_t *head;
-
+<br>
     head = NULL;
     add_nodeint_end(&head, 0);
     add_nodeint_end(&head, 1);
@@ -567,15 +573,15 @@ int main(void)
     add_nodeint_end(&head, 402);
     add_nodeint_end(&head, 1024);
     print_listint(head);
-
+<br>
     printf("-----------------\n");
-
+<br>
     insert_node(&head, 27);
-
+<br>
     print_listint(head);
-
+<br>
     free_listint(head);
-
+<br>
     return (0);
 }</code></pre>
 <p><b><i><u>Output example:</u></i></b></p>
@@ -621,7 +627,7 @@ carrie@ubuntu:0x01$ ./insert
 1024
 carrie@ubuntu:0x01$</pre>
 <ul>
-    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/13-insert_number.c" target="_blank">13-insert_number.c</b></i></a></code></li>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/13-insert_number.c" target="_blank">13-insert_number.c</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>14. Smile in the mirror</h2>
@@ -637,7 +643,7 @@ carrie@ubuntu:0x01$</pre>
 <pre>guillaume@ubuntu:~/0x01$ ./100-print_tebahpla.py
 zYxWvUtSrQpOnMlKjIhGfEdCbAguillaume@ubuntu:~/0x01$</pre>
 <ul>
-    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/100-print_tebahpla.py" target="_blank">100-print_tebahpla.py</b></i></a></code></li>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/100-print_tebahpla.py" target="_blank">100-print_tebahpla.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>15. Remove at position</h2>
@@ -652,13 +658,13 @@ zYxWvUtSrQpOnMlKjIhGfEdCbAguillaume@ubuntu:~/0x01$</pre>
 <pre><code>guillaume@ubuntu:~/0x01$ cat 101-main.py
 #!/usr/bin/env python3
 remove_char_at = __import__('101-remove_char_at').remove_char_at
-
+<br>
 print(remove_char_at("Best School", 3))
 print(remove_char_at("Chicago", 2))
 print(remove_char_at("C is fun!", 0))
 print(remove_char_at("School", 10))
 print(remove_char_at("Python", -2))
-
+<br>
 guillaume@ubuntu:~/0x01$ ./101-main.py
 Bes School
 Chcago
@@ -667,7 +673,7 @@ School
 Python
 guillaume@ubuntu:~/0x01$</code></pre>
 <ul>
-    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/101-remove_char_at.py" target="_blank">101-remove_char_at.py</b></i></a></code></li>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/101-remove_char_at.py" target="_blank">101-remove_char_at.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>16. ByteCode -> Python #2</h2>
@@ -680,7 +686,7 @@ guillaume@ubuntu:~/0x01$</code></pre>
     <li><b>Tip:</b>&nbsp;<a href="https://intranet.hbtn.io/rltoken/FYK4MePotTrqXCfiKYxL7Q" target="_blank" title="Python bytecode">Python bytecode</a></li>
 </ul>
 <ul>
-    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/102-magic_calculation.py" target="_blank">102-magic_calculation.py</b></i></a></code></li>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/102-magic_calculation.py" target="_blank">102-magic_calculation.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>License & Copyright</h2>
