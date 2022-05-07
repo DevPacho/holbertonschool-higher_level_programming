@@ -2,6 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/98773774/167176689-e892a2ae-2a00-4dc0-bf88-62928b9c61ca.png)
 
+<br>
 <h2>Resources</h2>
 <p><strong>Read or watch</strong>:</p>
 <ul>
@@ -38,7 +39,9 @@
     <li>The length of your files will be tested using&nbsp;<code>wc</code></li>
 </ul>
 <br>
-<h1>Tasks</h1>
+<h1>✅ Tasks ✅</h1>
+<p>This project is made up of mandatory and optional tasks, <b>⬇️ <code>look at them!</code></b> ⬇️</p>
+<br>
 <h2>0. Import a simple function from a simple file</h2>
 <p>Write a program that imports the function&nbsp;<code>def add(a, b):</code> from the file&nbsp;<code>add_0.py</code> and prints the result of the addition&nbsp;<code>1 + 2 = 3</code></p>
 <ul>
@@ -62,16 +65,16 @@
 #!/usr/bin/python3
 def add(a, b):
     """My addition function
-
+<br>
     Args:
         a: first integer
         b: second integer
-
+<br>
     Returns:
         The return value. a + b
     """
     return (a + b)
-
+<br>
 guillaume@ubuntu:~/0x02$ ./0-add.py
 1 + 2 = 3
 guillaume@ubuntu:~/0x02$ cat 0-import_add.py
@@ -79,7 +82,7 @@ __import__("0-add")
 guillaume@ubuntu:~/0x02$ python3 0-import_add.py 
 guillaume@ubuntu:~/0x02$</code></pre>
 <ul>
-    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/0-add.py" target="_blank">0-add.py</b></i></a></code></li>
+    <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/0-add.py" target="_blank">0-add.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>1. My first toolbox!</h2>
@@ -103,55 +106,55 @@ guillaume@ubuntu:~/0x02$</code></pre>
 #!/usr/bin/python3
 def add(a, b):
     """My addition function
-
+<br>
     Args:
         a: first integer
         b: second integer
-
+<br>
     Returns:
         The return value. a + b
     """
     return (a + b)
-
-
+<br>
+<br>
 def sub(a, b):
     """My subtraction function
-
+<br>
     Args:
         a: first integer
         b: second integer
-
+<br>
     Returns:
         The return value. a - b
     """
     return (a - b)
-
-
+<br>
+<br>
 def mul(a, b):
     """My multiplication function
-
+<br>
     Args:
         a: first integer
         b: second integer
-
+<br>
     Returns:
         The return value. a * b
     """
     return (a * b)
-
-
+<br>
+<br>
 def div(a, b):
     """My division function
-
+<br>
     Args:
         a: first integer
         b: second integer
-
+<br>
     Returns:
         The return value. a / b
     """
     return int(a / b)
-
+<br>
 guillaume@ubuntu:~/0x02$ ./1-calculation.py
 10 + 5 = 15
 10 - 5 = 5
@@ -159,7 +162,7 @@ guillaume@ubuntu:~/0x02$ ./1-calculation.py
 10 / 5 = 2
 guillaume@ubuntu:~/0x02$</code></pre>
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/1-calculation.py" target="_blank">1-calculation.py</b></i></a></code></li>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/1-calculation.py" target="_blank">1-calculation.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>2. How to make a script dynamic!</h2>
@@ -195,7 +198,7 @@ guillaume@ubuntu:~/0x02$ ./2-args.py Hello Welcome To The Best School
 6: School
 guillaume@ubuntu:~/0x02$</code></pre>
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/2-args.py" target="_blank">2-args.py</b></i></a></code></li>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/2-args.py" target="_blank">2-args.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>3. Infinite addition</h2>
@@ -222,7 +225,7 @@ guillaume@ubuntu:~/0x02$</code></pre>
 ![image](https://user-images.githubusercontent.com/98773774/167204226-37c32521-c7bc-4f96-b927-d2ec93dc438c.png)
 
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/3-infinite_add.py" target="_blank">3-infinite_add.py</b></i></a></code></li>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/3-infinite_add.py" target="_blank">3-infinite_add.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>4. Who are you?</h2>
@@ -241,7 +244,7 @@ print_hidden
 print_school
 guillaume@ubuntu:~/0x02$</code></pre>
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/4-hidden_discovery.py" target="_blank">4-hidden_discovery.py</b></i></a></code></li>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/4-hidden_discovery.py" target="_blank">4-hidden_discovery.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>5. Everything can be imported</h2>
@@ -256,12 +259,12 @@ guillaume@ubuntu:~/0x02$</code></pre>
 a = 98
 """Simple variable
 """
-
+<br>
 guillaume@ubuntu:~/0x02$ ./5-variable_load.py
 98
 guillaume@ubuntu:~/0x02$</code></pre>
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/5-variable_load.py" target="_blank">5-variable_load.py</b></i></a></code></li>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/5-variable_load.py" target="_blank">5-variable_load.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>6. Build my own calculator!</h2>
@@ -301,9 +304,8 @@ guillaume@ubuntu:~/0x02$</code></pre>
 
 ![image](https://user-images.githubusercontent.com/98773774/167200247-425eb477-8dbc-43ea-b283-1bd7964bebdc.png)
 
-
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/100-my_calculator.py" target="_blank">100-my_calculator.py</b></i></a></code></li>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/100-my_calculator.py" target="_blank">100-my_calculator.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>7. Easy print</h2>
@@ -318,7 +320,7 @@ guillaume@ubuntu:~/0x02$</code></pre>
 #pythoniscool
 guillaume@ubuntu:~/0x02$</code></pre>
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/101-easy_print.py" target="_blank">101-easy_print.py</b></i></a></code></li>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/101-easy_print.py" target="_blank">101-easy_print.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>8. ByteCode -> Python #3</h2>
@@ -332,7 +334,7 @@ guillaume@ubuntu:~/0x02$</code></pre>
     <li><b>Tip:</b>&nbsp;<a href="https://intranet.hbtn.io/rltoken/FYK4MePotTrqXCfiKYxL7Q" target="_blank" title="Python bytecode">Python bytecode</a></li>
 </ul>
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/102-magic_calculation.py" target="_blank">102-magic_calculation.py</b></i></a></code></li>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/102-magic_calculation.py" target="_blank">102-magic_calculation.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>9. Fast alphabet</h2>
@@ -356,7 +358,7 @@ guillaume@ubuntu:~/0x02$ wc -l 103-fast_alphabet.py
 3 103-fast_alphabet.py
 guillaume@ubuntu:~/0x02$</code></pre>
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/103-fast_alphabet.py" target="_blank">103-fast_alphabet.py</b></i></a></code> , <b>Help file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/fastalphabetUP.py" target="_blank">fastalphabetUP.py</b></i></a></code></li>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/103-fast_alphabet.py" target="_blank">103-fast_alphabet.py</b></i></a></code> , <b>Help file: </b><code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x02-python-import_modules/fastalphabetUP.py" target="_blank">fastalphabetUP.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>License & Copyright</h2>
