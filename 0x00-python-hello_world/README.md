@@ -276,7 +276,7 @@ guillaume@ubuntu:~/py/0x00$</code></pre>
 <h2>9. Easter Egg</h2>
 <p>Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.</p>
 <ul>
-    <li>Your script should be maximum 98 characters long (please check with <code>wc -m 9-easter_egg.py</code>)<li>
+    <li>Your script should be maximum 98 characters long (please check with <code>wc -m 9-easter_egg.py</code>)</li>
 </ul>
 <p><b><i><u>Output example:</u></i></b></p>
 <pre><code>guillaume@ubuntu:~/py/0x00$ ./9-easter_egg.py
@@ -307,7 +307,7 @@ guillaume@ubuntu:~/py/0x00$</code></pre>
 </ul>
 <br>
 <h2>10. Linked list cycle</h2>
-<p><strong>Technical interview preparation</strong>:</p>
+<p><strong><code>Technical interview preparation:</code></strong></p>
 <ul>
     <li>You are not allowed to google anything</li>
     <li>Whiteboard first</li>
@@ -544,8 +544,8 @@ guillaume@ubuntu:~/py/0x00$</code></pre>
     <li><b>Solution file:</b>&nbsp;<code><i><b><a href="https://github.com/FranRM15/holbertonschool-higher_level_programming/blob/main/0x00-python-hello_world/101-compile" target="_blank">101-compile</b></i></a></code> ✅</li>
 </ul>
 <br>
+<h2>13. ByteCode -> Python #1</h2>
 <p><b><i><code>Advanced task</code></i></b></p>
-<p><b><i>Advanced task</i></b><p>
 <p>Write the Python function <code>def magic_calculation(a, b):</code> that does exactly the same as the following Python bytecode:</p>
 <pre><code>  3           0 LOAD_CONST               1 (98)
               3 LOAD_FAST                0 (a)
