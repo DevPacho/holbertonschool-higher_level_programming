@@ -40,7 +40,7 @@
 </ul>
 <br>
 <h1>✅ Tasks ✅</h1>
-<p>This project is made up of mandatory and optional tasks, <b>⬇️ <code>look at them!</code></b> ⬇️</p>
+<p>This project is made up of mandatory and optional tasks (<b><i><code>Advanced task</code></i></b>), <b>⬇️ <code>look at them!</code></b> ⬇️</p>
 <br>
 <h2>0. Import a simple function from a simple file</h2>
 <p>Write a program that imports the function&nbsp;<code>def add(a, b):</code> from the file&nbsp;<code>add_0.py</code> and prints the result of the addition&nbsp;<code>1 + 2 = 3</code></p>
@@ -268,7 +268,7 @@ guillaume@ubuntu:~/0x02$</code></pre>
 </ul>
 <br>
 <h2>6. Build my own calculator!</h2>
-<p><b><i>Advanced task</i></b><p>
+<p><b><i><code>Advanced task</code></i></b><p>
 <p>Write a program that imports all functions from the file&nbsp;<code>calculator_1.py</code> and handles basic operations.</p>
 <ul>
     <li>Usage:&nbsp;<code>./100-my_calculator.py a operator b</code>
@@ -309,7 +309,7 @@ guillaume@ubuntu:~/0x02$</code></pre>
 </ul>
 <br>
 <h2>7. Easy print</h2>
-<p><b><i>Advanced task</i></b><p>
+<p><b><i><code>Advanced task</code></i></b><p>
 <p>Write a program that prints <code>#pythoniscool</code>, followed by a new line, in the standard output.</p>
 <ul>
     <li>Your program should be maximum 2 lines long</li>
@@ -324,7 +324,7 @@ guillaume@ubuntu:~/0x02$</code></pre>
 </ul>
 <br>
 <h2>8. ByteCode -> Python #3</h2>
-<p><b><i>Advanced task</i></b><p>
+<p><b><i><code>Advanced task</code></i></b><p>
 <p>Write the Python function <code>def magic_calculation(a, b):</code> that does exactly the same as the following Python bytecode:</p>
 
 ![image](https://user-images.githubusercontent.com/98773774/167202932-26fa01fa-72b8-44ee-9af9-bcf88e0b8aa0.png)
@@ -338,7 +338,7 @@ guillaume@ubuntu:~/0x02$</code></pre>
 </ul>
 <br>
 <h2>9. Fast alphabet</h2>
-<p><b><i>Advanced task</i></b><p>
+<p><b><i><code>Advanced task</code></i></b><p>
 <p>Write a program that prints the alphabet in uppercase, followed by a new line.</p>
 <ul>
     <li>Your program should be maximum 3 lines long</li>
