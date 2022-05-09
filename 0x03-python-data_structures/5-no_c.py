@@ -1,9 +1,4 @@
-#!/usr/bin/env python3
-from calendar import c
-from os import remove
-import re
-
-
+#!/usr/bin/python3
 def no_c(my_string):
     remove = ""
     for a in my_string:
