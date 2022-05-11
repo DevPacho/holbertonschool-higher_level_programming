@@ -1,8 +1,4 @@
 #!/usr/bin/python3
-from curses import tparm
-from pyrsistent import b
-
-
 def weight_average(my_list=[]):
     if my_list:
         s = 0
@@ -12,3 +8,4 @@ def weight_average(my_list=[]):
             s += a * b
             w += b
         return s / w
+    return 0
