@@ -30,9 +30,9 @@ int is_palindrome(listint_t **head)
 
 	for (to_compare = 0; to_compare <= split_list; list_length--, to_compare++)
 	{
-		if (save_list_content[to_compare] == save_list_content[list_length])
-			return (1);
+		if (save_list_content[to_compare] != save_list_content[list_length])
+			return (0);
 	}
 
-	return (0);
+	return (1);
 }
