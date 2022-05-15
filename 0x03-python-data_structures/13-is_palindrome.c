@@ -20,10 +20,9 @@ int is_palindrome(listint_t **head)
 
 	while (traverse_list)
 	{
-	save_list_content[list_length] = traverse_list->n;
+		save_list_content[list_length] = traverse_list->n;
 		traverse_list = traverse_list->next;
 		list_length++;
-		traverse_list++;
 	}
 
 	list_length--;
