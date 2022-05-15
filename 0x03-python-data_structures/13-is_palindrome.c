@@ -11,7 +11,7 @@ int is_palindrome(listint_t **head)
 {
 	listint_t *traverse_list = *head;
 	int list_length, split_list, to_compare;
-	int save_list_content[1024];
+	int save_list_content[3000];
 
 	if (!head)
 		return (1);
