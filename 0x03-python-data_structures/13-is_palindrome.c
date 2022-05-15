@@ -9,7 +9,7 @@
 
 int is_palindrome(listint_t **head)
 {
-	listint_t *traverse_list = *head;
+	listint_t *traverse_list;
 	int list_length, split_list, to_compare;
 	int save_list_content[4096];
 
@@ -28,7 +28,7 @@ int is_palindrome(listint_t **head)
 	list_length--;
 	split_list = list_length / 2;
 
-	for (to_compare = 0; to_compare <= split_list; list_length--, to_compare++)
+	for (to_compare = 0; to_compare <= split_list; to_compare++, list_length--)
 	{
 		if (save_list_content[to_compare] != save_list_content[list_length])
 			return (0);
