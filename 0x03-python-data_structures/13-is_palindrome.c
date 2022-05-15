@@ -9,31 +9,31 @@
 
 int is_palindrome(listint_t **head)
 {
-    listint_t *traverse_list = *head;
-    int list_length, split_list, to_compare;
-    int save_list_content[1024];
+	listint_t *traverse_list = *head;
+	int list_length, split_list, to_compare;
+	int save_list_content[1024];
 
-    if (!head)
-        return (1);
+	if (!head)
+		return (1);
 
-    traverse_list = *head;
+	traverse_list = *head;
 
-    while (traverse_list)
-    {
-        save_list_content[list_length] = traverse_list->n;
-        traverse_list = traverse_list->next;
-        list_length++;
-        traverse_list++;
-    }
+	while (traverse_list)
+	{
+	save_list_content[list_length] = traverse_list->n;
+		traverse_list = traverse_list->next;
+		list_length++;
+		traverse_list++;
+	}
 
-    list_length--;
-    split_list = list_length / 2;
+	list_length--;
+	split_list = list_length / 2;
 
-    for (to_compare = 0; to_compare <= split_list; list_length--, to_compare++)
-    {
-        if (save_list_content[to_compare] == save_list_content[list_length])
-            return (1);
-    }
+	for (to_compare = 0; to_compare <= split_list; list_length--, to_compare++)
+	{
+		if (save_list_content[to_compare] == save_list_content[list_length])
+			return (1);
+	}
 
-    return (0);
+	return (0);
 }
