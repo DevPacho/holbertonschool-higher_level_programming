@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 """Class that defines a square"""
 
+
 class Square:
     """The value is assigned for the size of the square"""
-    def __init__(self, size = 0):
+    def __init__(self, size=0):
         """'size' is an integer?"""
         if type(size) is int:
             """Private instance attribute 'size' with instantiation 'size'"""
