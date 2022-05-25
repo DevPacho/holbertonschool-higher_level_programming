@@ -5,8 +5,8 @@
 class Square:
     """Constructor method that initialize and create a 'square' object"""
     def __init__(self, size=0, position=(0, 0)):
-        self.__size = size
-        self.__position = position
+        self.size = size
+        self.position = position
 
     """Public instance method that returns the current square area"""
     def area(self):
