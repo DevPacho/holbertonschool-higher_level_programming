@@ -33,7 +33,7 @@ class Square:
     """Public instance method that prints the square with the character #"""
     def my_print(self):
         if self.__size == 0:
-            print()
+            return print()
 
         print(self.__position[1] * '\n', end="")
         for traverse in range(self.__size):
