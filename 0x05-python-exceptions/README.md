@@ -74,7 +74,7 @@ nb_print: 5
 nb_print: 5
 guillaume@ubuntu:~/0x05$</code></pre>
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="" target="_blank"></b></i></a></code> ✅</li>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/DevPacho/holbertonschool-higher_level_programming/blob/main/0x05-python-exceptions/0-safe_print_list.py" target="_blank">0-safe_print_list.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>1. Safe printing of an integers list</h2>
@@ -116,7 +116,7 @@ guillaume@ubuntu:~/0x05$ ./1-main.py
 School is not an integer
 guillaume@ubuntu:~/0x05$</code></pre>
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="" target="_blank"></b></i></a></code> ✅</li>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/DevPacho/holbertonschool-higher_level_programming/blob/main/0x05-python-exceptions/1-safe_print_integer.py" target="_blank">1-safe_print_integer.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>2. Print and count integers</h2>
@@ -164,7 +164,7 @@ nb_print: 5
 IndexError: list index out of range
 guillaume@ubuntu:~/0x05$</code></pre>
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="" target="_blank"></b></i></a></code> ✅</li>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/DevPacho/holbertonschool-higher_level_programming/blob/main/0x05-python-exceptions/2-safe_print_list_integers.py" target="_blank">2-safe_print_list_integers.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>3. Integers division with debug</h2>
@@ -200,7 +200,7 @@ Inside result: None
 12 / 0 = None
 guillaume@ubuntu:~/0x05$</code></pre>
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="" target="_blank"></b></i></a></code> ✅</li>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/DevPacho/holbertonschool-higher_level_programming/blob/main/0x05-python-exceptions/3-safe_print_division.py" target="_blank">3-safe_print_division.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>4. Divide a list</h2>
@@ -252,7 +252,7 @@ out of range
 [5.0, 0, 0, 2.0, 0]
 guillaume@ubuntu:~/0x05$</code></pre>
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="" target="_blank"></b></i></a></code> ✅</li>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/DevPacho/holbertonschool-higher_level_programming/blob/main/0x05-python-exceptions/4-list_division.py" target="_blank">4-list_division.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>5. Raise exception</h2>
@@ -275,7 +275,7 @@ guillaume@ubuntu:~/0x05$ ./5-main.py
 Exception raised
 guillaume@ubuntu:~/0x05$</code></pre>
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="" target="_blank"></b></i></a></code> ✅</li>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/DevPacho/holbertonschool-higher_level_programming/blob/main/0x05-python-exceptions/5-raise_exception.py" target="_blank">5-raise_exception.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>6. Raise a message</h2>
@@ -298,7 +298,113 @@ guillaume@ubuntu:~/0x05$ ./6-main.py
 C is fun
 guillaume@ubuntu:~/0x05$</code></pre>
 <ul>
-    <li><b>Solution file: </b><code><i><b><a href="" target="_blank"></b></i></a></code> ✅</li>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/DevPacho/holbertonschool-higher_level_programming/blob/main/0x05-python-exceptions/6-raise_exception_msg.py" target="_blank">6-raise_exception_msg.py</b></i></a></code> ✅</li>
+</ul>
+<br>
+<h2>7. Safe integer print with error message</h2>
+<p><b><i><code>Advanced task</code></i></b></p>
+<p>Write a function that prints an integer.</p>
+<ul>
+    <li>Prototype:&nbsp;<code>def safe_print_integer_err(value):</code></li>
+    <li><code>value</code> can be any type (integer, string, etc.)</li>
+    <li>The integer should be printed followed by a new line</li>
+    <li>Returns&nbsp;<code>True</code> if&nbsp;<code>value</code> has been correctly printed (it means the&nbsp;<code>value</code> is an integer)</li>
+    <li>Otherwise, returns&nbsp;<code>False</code> and prints in&nbsp;<code>stderr</code> the error precede by&nbsp;<code>Exception:</code></li>
+    <li>You have to use&nbsp;<code>try: / except:</code></li>
+    <li>You have to use&nbsp;<code>&quot;{:d}&quot;.format()</code> to print as integer</li>
+    <li>You are not allowed to use&nbsp;<code>type()</code></li>
+</ul>
+<p><b><i><u>Output example:</u></i></b></p>
+<pre><code>guillaume@ubuntu:~/0x05$ cat 100-main.py
+#!/usr/bin/python3
+safe_print_integer_err = \
+    __import__(&apos;100-safe_print_integer_err&apos;).safe_print_integer_err
+<br>
+value = 89
+has_been_print = safe_print_integer_err(value)
+if not has_been_print:
+    print(&quot;{} is not an integer&quot;.format(value))
+<br>
+value = -89
+has_been_print = safe_print_integer_err(value)
+if not has_been_print:
+    print(&quot;{} is not an integer&quot;.format(value))
+<br>
+value = &quot;School&quot;
+has_been_print = safe_print_integer_err(value)
+if not has_been_print:
+    print(&quot;{} is not an integer&quot;.format(value))
+<br>
+guillaume@ubuntu:~/0x05$ ./100-main.py
+89
+-89
+Exception: Unknown format code &apos;d&apos; for object of type &apos;str&apos;
+School is not an integer
+guillaume@ubuntu:~/0x05$ ./100-main.py 2&gt; /dev/null
+89
+-89
+School is not an integer
+guillaume@ubuntu:~/0x05$</code></pre>
+<ul>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/DevPacho/holbertonschool-higher_level_programming/blob/main/0x05-python-exceptions/100-safe_print_integer_err.py" target="_blank">100-safe_print_integer_err.py</b></i></a></code> ✅</li>
+</ul>
+<br>
+<h2>8. Safe function</h2>
+<p><b><i><code>Advanced task</code></i></b></p>
+<p>Write a function that executes a function safely.</p>
+<ul>
+    <li>Prototype:&nbsp;<code>def safe_function(fct, *args):</code></li>
+    <li>You can assume&nbsp;<code>fct</code> will be always a pointer to a function</li>
+    <li>Returns the result of the function,</li>
+    <li>Otherwise, returns&nbsp;<code>None</code> if something happens during the function and prints in&nbsp;<code>stderr</code> the error precede by&nbsp;<code>Exception:</code></li>
+    <li>You have to use&nbsp;<code>try: / except:</code></li>
+</ul>
+<p><b><i><u>Output example:</u></i></b></p>
+<pre><code>guillaume@ubuntu:~/0x05$ cat 101-main.py
+#!/usr/bin/python3
+safe_function = __import__(&apos;101-safe_function&apos;).safe_function
+<br>
+<br>
+def my_div(a, b):
+    return a / b
+<br>
+result = safe_function(my_div, 10, 2)
+print(&quot;result of my_div: {}&quot;.format(result))
+result = safe_function(my_div, 10, 0)
+print(&quot;result of my_div: {}&quot;.format(result))
+<br>
+<br>
+def print_list(my_list, len):
+    i = 0
+    while i &lt; len:
+        print(my_list[i])
+        i += 1
+    return len
+<br>
+result = safe_function(print_list, [1, 2, 3, 4], 10)
+print(&quot;result of print_list: {}&quot;.format(result))
+<br>
+guillaume@ubuntu:~/0x05$ ./101-main.py
+result of my_div: 5.0
+Exception: division by zero
+result of my_div: None
+1
+2
+3
+4
+Exception: list index out of range
+result of print_list: None
+guillaume@ubuntu:~/0x05$ ./101-main.py 2&gt; /dev/null
+result of my_div: 5.0
+result of my_div: None
+1
+2
+3
+4
+result of print_list: None
+guillaume@ubuntu:~/0x05$</code></pre>
+<ul>
+    <li><b>Solution file: </b><code><i><b><a href="https://github.com/DevPacho/holbertonschool-higher_level_programming/blob/main/0x05-python-exceptions/101-safe_function.py" target="_blank">101-safe_function.py</b></i></a></code> ✅</li>
 </ul>
 <br>
 <h2>License & Copyright</h2>
