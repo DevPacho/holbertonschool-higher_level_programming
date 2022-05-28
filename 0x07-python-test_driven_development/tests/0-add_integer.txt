@@ -1,6 +1,6 @@
 Testing my function: def add_integer(a, b=98):
 
-    >>> add_integer = __import__('0-add_integer').add_integer
+>>> add_integer = __import__('0-add_integer').add_integer
 
 ===================
 1. Positive numbers
