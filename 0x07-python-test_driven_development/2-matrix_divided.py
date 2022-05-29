@@ -27,6 +27,14 @@ def matrix_divided(matrix, div):
             if type(numbers) is not int and type(numbers) is not float:
                 raise TypeError(Mx_TypeError)
 
+    if matrix == "" or matrix == " " or matrix is None or not matrix:
+        raise TypeError(Mx_TypeError)
+    if lists_inside == "" or lists_inside == " " \
+            or lists_inside is None or not lists_inside:
+        raise TypeError(Mx_TypeError)
+    if numbers == "" or numbers == " " or numbers is None or not numbers:
+        raise TypeError(Mx_TypeError)
+
     if not all(len(lists_inside) is len(matrix[0]) for lists_inside in matrix):
         raise TypeError("Each row of the matrix must have the same size")
 
@@ -36,6 +44,8 @@ def matrix_divided(matrix, div):
         raise TypeError("div must be a number")
     if div == 0:
         raise ZeroDivisionError("division by zero")
+    if div == "" or div == " " or div is None or not div:
+        raise TypeError("div must be a number")
 
     for lists_inside in matrix:
         new_mx.append(list(map(lambda dv: round(dv / div, 2), lists_inside)))
