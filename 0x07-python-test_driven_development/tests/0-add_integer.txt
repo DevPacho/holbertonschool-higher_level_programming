@@ -90,8 +90,35 @@ TypeError: a must be an integer
 110
 
 ===================
-11. Negative floats
+12. Negative floats
 ===================
 
 >>> add_integer(-100.5, -10.8)
 -110
+
+========
+13. Char
+========
+
+>>> add_integer("f")
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+
+=============
+14. None in a
+=============
+
+>>> add_integer(None, 999)
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+
+=============
+15. None in b
+=============
+
+>>> add_integer(-1000, None)
+Traceback (most recent call last):
+...
+TypeError: b must be an integer

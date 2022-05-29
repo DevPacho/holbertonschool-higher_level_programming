@@ -1,14 +1,14 @@
 #!/usr/bin/python3
 """
 Function that adds 2 integers.
-
+a and b must be first casted to integers if they are float.
 Returns an integer: the addition of a and b.
 """
 
 
 def add_integer(a, b=98):
     """
-    a and b must be integers or floats.
+    a and b must be integers or floats,  otherwise raise a TypeError exception.
     """
 
     if type(a) is not int and type(a) is not float:
