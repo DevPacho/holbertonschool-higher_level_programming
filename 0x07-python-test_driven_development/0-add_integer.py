@@ -11,9 +11,9 @@ def add_integer(a, b=98):
     a and b must be integers or floats,  otherwise raise a TypeError exception.
     """
 
-    if a is None or not a:
+    if a == "" or a == " " or a is None or not a:
         raise TypeError("a must be an integer")
-    if b is None or not b:
+    if b == "" or b == " " or b is None or not b:
         raise TypeError("b must be an integer")
 
     if type(a) is not int and type(a) is not float:
