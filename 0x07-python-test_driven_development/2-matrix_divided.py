@@ -1,12 +1,22 @@
 #!/usr/bin/python3
-"""function that divides all elements of a matrix."""
+"""
+function that divides all elements of a matrix.
+div must be a number (integer or float), otherwise raise a TypeError exception.
+Returns a new matrix.
+"""
 
 
 def matrix_divided(matrix, div):
-    """Validations of variables for error handling."""
+    """
+    matrix must be a list of lists of integers or floats, otherwise is error.
+    """
 
     new_matrix = []
 
+    if not matrix:
+        raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
+    if matrix is None and matrix[0] is None:
+        raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
     if type(matrix) is not list:
         raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
     for lists_inside in matrix:
@@ -16,10 +26,12 @@ def matrix_divided(matrix, div):
             if type(numbers) is not int and type(numbers) is not float:
                 raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
 
-    if len(matrix[0]) != len(matrix[1]):
+    if not all(len(lists_inside) is len(matrix[0]) for lists_inside in matrix):
         raise TypeError("Each row of the matrix must have the same size")
 
     if type(div) is not int and type(div) is not float:
+        raise TypeError("div must be a number")
+    if div is None:
         raise TypeError("div must be a number")
     if div == 0:
         raise ZeroDivisionError("division by zero")
