@@ -11,20 +11,21 @@ def matrix_divided(matrix, div):
     matrix must be a list of lists of integers or floats, otherwise is error.
     """
 
-    new_matrix = []
+    new_mx = []
+    Mx_TypeError = "matrix must be a matrix (list of lists) of integers/floats"
 
     if not matrix:
-        raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
+        raise TypeError(Mx_TypeError)
     if matrix is None and matrix[0] is None:
-        raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
+        raise TypeError(Mx_TypeError)
     if type(matrix) is not list:
-        raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
+        raise TypeError(Mx_TypeError)
     for lists_inside in matrix:
         if type(lists_inside) is not list:
-            raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
+            raise TypeError(Mx_TypeError)
         for numbers in lists_inside:
             if type(numbers) is not int and type(numbers) is not float:
-                raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
+                raise TypeError(Mx_TypeError)
 
     if not all(len(lists_inside) is len(matrix[0]) for lists_inside in matrix):
         raise TypeError("Each row of the matrix must have the same size")
@@ -37,6 +38,6 @@ def matrix_divided(matrix, div):
         raise ZeroDivisionError("division by zero")
 
     for lists_inside in matrix:
-        new_matrix.append(list(map(lambda to_div: round(to_div / div, 2), lists_inside)))
+        new_mx.append(list(map(lambda dv: round(dv / div, 2), lists_inside)))
 
-    return new_matrix
+    return new_mx
