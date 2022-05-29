@@ -100,7 +100,7 @@ TypeError: a must be an integer
 13. Char
 ========
 
->>> add_integer("f")
+>>> add_integer("F")
 Traceback (most recent call last):
 ...
 TypeError: a must be an integer
