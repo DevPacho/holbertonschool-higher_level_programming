@@ -53,7 +53,7 @@ class Rectangle:
 
         if w == 0 or h == 0:
             return ""
-        
+
         for a in range(h):
             print_rec += "#" * w + "\n"
 
