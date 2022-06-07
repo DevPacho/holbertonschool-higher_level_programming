@@ -121,3 +121,21 @@ my_list.append(float('-inf'))
 Traceback (most recent call last):
 ...
 TypeError: '<' not supported between instances of 'str' and 'int'
+
+================
+7. Without print
+================
+
+>>> my_list = MyList()
+
+>>> my_list.append(100000)
+>>> my_list.append(-99)
+>>> my_list.append(802)
+>>> my_list.append(3)
+>>> my_list.append(55)
+
+>>> my_list.print_sorted()
+[-99, 3, 55, 802, 100000]
+
+>>> my_list
+[100000, -99, 802, 3, 55]
