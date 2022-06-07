@@ -1,0 +1,110 @@
+Testing my function: def print_sorted(self):
+
+>>> MyList = __import__('1-my_list').MyList
+
+=========
+1. Normal
+=========
+
+>>> my_list = MyList()
+
+>>> my_list.append(90)
+>>> my_list.append(222)
+>>> my_list.append(0)
+>>> my_list.append(33)
+>>> my_list.append(15)
+
+>>> print(my_list)
+[90, 222, 0, 33, 15]
+
+>>> my_list.print_sorted()
+[0, 15, 33, 90, 222]
+
+============
+2. Negatives
+============
+
+>>> my_list = MyList()
+
+>>> my_list.append(-1)
+>>> my_list.append(338)
+>>> my_list.append(-19)
+>>> my_list.append(1000)
+>>> my_list.append(-98)
+
+>>> print(my_list)
+[-1, 338, -19, 1000, -98]
+
+>>> my_list.print_sorted()
+[-98, -19, -1, 338, 1000]
+
+
+=========
+3. Emptys
+=========
+
+>>> my_list = MyList()
+
+>>> my_list.append("")
+>>> my_list.append("")
+>>> my_list.append("")
+
+>>> print(my_list)
+['', '', '']
+
+>>> my_list.print_sorted()
+['', '', '']
+
+---------
+
+>>> my_list = MyList()
+
+>>> print(my_list)
+[]
+
+>>> my_list.print_sorted()
+[]
+
+---------
+
+>>> my_list = MyList()
+
+>>> my_list.append(None)
+>>> my_list.append(None)
+>>> my_list.append(None)
+
+>>> print(my_list)
+[None, None, None]
+
+===========
+4. Infinity
+===========
+
+>>> my_list = MyList()
+
+my_list.append(float('inf'))
+my_list.append(float('-inf'))
+
+>>> print(my_list)
+[]
+
+>>> my_list.print_sorted()
+[]
+
+=============
+5. Infinity 2
+=============
+
+>>> my_list = MyList()
+
+my_list.append(float(99)
+my_list.append(float('inf'))
+my_list.append(float(-1)
+my_list.append(float(2222)
+my_list.append(float('-inf'))
+
+>>> print(my_list)
+[]
+
+>>> my_list.print_sorted()
+[]
