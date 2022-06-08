@@ -1,0 +1,79 @@
+Testing my function: def integer_validator(self, name, value):
+
+>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+>>> bg = BaseGeometry()
+
+=========
+1. Normal
+=========
+
+bg.integer_validator("my_int", 12)
+Traceback (most recent call last):
+...
+TypeError: my_int must be an integer
+
+bg.integer_validator("width", 89)
+Traceback (most recent call last):
+...
+TypeError: width must be an integer
+
+=======
+2. Zero
+=======
+
+>>> bg.integer_validator("Pacho", 0)
+Traceback (most recent call last):
+...
+ValueError: Pacho must be greater than 0
+
+================
+3. Double string
+================
+
+>>> bg.integer_validator("Francisco", "Ramírez")
+Traceback (most recent call last):
+...
+TypeError: Francisco must be an integer
+
+=================
+4. Negative value
+=================
+
+>>> bg.integer_validator("Pacho", -10)
+Traceback (most recent call last):
+...
+ValueError: Pacho must be greater than 0
+
+==============
+4. Float value
+==============
+
+>>> bg.integer_validator("Pacho", -10.900)
+Traceback (most recent call last):
+...
+TypeError: Pacho must be an integer
+
+=========
+5. Emptys
+=========
+
+>>> bg.integer_validator("", -10.900)
+Traceback (most recent call last):
+...
+TypeError:  must be an integer
+
+>>> bg.integer_validator( , -10.900)
+Traceback (most recent call last):
+...
+SyntaxError: invalid syntax
+
+>>> bg.integer_validator("Pacho",       )
+Traceback (most recent call last):
+...
+TypeError: integer_validator() missing 1 required positional argument: 'value'
+
+>>> bg.integer_validator("         ",       )
+Traceback (most recent call last):
+...
+TypeError: integer_validator() missing 1 required positional argument: 'value'
