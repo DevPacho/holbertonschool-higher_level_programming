@@ -74,3 +74,22 @@ TypeError: integer_validator() missing 1 required positional argument: 'value'
 Traceback (most recent call last):
 ...
 TypeError: integer_validator() missing 1 required positional argument: 'value'
+
+================
+6. Various cases
+================
+
+>>> bg = BaseGeometry()
+>>> bg.integer_validator(2000)
+Traceback (most recent call last):
+...
+TypeError: integer_validator() missing 1 required positional argument: 'value'
+>>> bg = BaseGeometry()
+>>> bg.integer_validator()
+Traceback (most recent call last):
+...
+TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
+>>> bg = BaseGeometry(133390)
+Traceback (most recent call last):
+...
+TypeError: BaseGeometry() takes no arguments
