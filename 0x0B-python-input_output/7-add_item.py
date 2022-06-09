@@ -14,6 +14,6 @@ list = []
 if file_exists:
     list = load_from_json_file("add_item.json")
 for args in argv[1:]:
-        list.append(args)
+    list.append(args)
 
 save_to_json_file(list, "add_item.json")
