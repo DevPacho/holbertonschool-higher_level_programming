@@ -12,7 +12,8 @@ def pascal_triangle(n):
         return lista
 
     if n == 1:
-        return [1]
+        lista1 = [[1]]
+        return lista1
 
     lista = [[1], [1, 1]]
 
