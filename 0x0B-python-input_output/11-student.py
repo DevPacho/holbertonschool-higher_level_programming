@@ -2,9 +2,6 @@
 """Class 'Student'"""
 
 
-from multiprocessing.sharedctypes import Value
-
-
 class Student:
 
     """Constructor method"""
@@ -29,5 +26,5 @@ class Student:
     def reload_from_json(self, json):
         """Replaces all attributes of the Student instance"""
 
-        for key_inside, Value_inside in json.items():
-            setattr(self, key_inside, Value_inside)
+        for key_inside, value_inside in json.items():
+            setattr(self, key_inside, value_inside)
