@@ -6,6 +6,11 @@ def pascal_triangle(n):
     """Function that returns a list of lists of integers representing
     the Pascal’s triangle of n"""
 
+    lista = []
+
+    if n <= 0:
+        return lista
+
     lista = [[1], [1, 1]]
 
     # bucle que se generara tantas veces como lineas vayamos a tener
