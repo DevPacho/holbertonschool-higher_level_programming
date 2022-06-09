@@ -6,36 +6,35 @@ def pascal_triangle(n):
     """Function that returns a list of lists of integers representing
     the Pascal's triangle of n"""
 
-    lista = []
+    pt = []
 
     if n <= 0:
-        return lista
+        return pt
 
     if n == 1:
-        lista1 = [[1]]
-        return lista1
+        pt = [[1]]
+        return pt
 
-    lista = [[1], [1, 1]]
+    """list containing the first two lines"""
+    pt = [[1], [1, 1]]
 
-    # bucle que se generara tantas veces como lineas vayamos a tener
-    for i in range(1, n - 1):
+    """This loop is generated as many times as there are lines."""
+    for prev_val in range(1, n - 1):
 
-        # inicializamos la linea
-        linea = [1]
+        """The line is initialized"""
+        line = [1]
 
-        # bucle por cada uno de los valores de la anterior linea
-        for j in range(0, len(lista[i]) - 1):
+        """Loop generated for each of the vals in the previous line"""
+        for nxt_val in range(0, len(pt[prev_val]) - 1):
 
-            # añadimos a la lista los nuevos valores
-            # sumamos el valor de la lista anterior con el siguinte
-            linea.extend([lista[i][j] + lista[i][j+1]])
+            """New vals are added to the list"""
+            """The previous val is added to the next val in the list"""
+            line.extend([pt[prev_val][nxt_val] + pt[prev_val][nxt_val + 1]])
 
-        # añadimos el ultimo valor a la nueva linea
-        # siempre es un 1 igual que el primero
-        linea += [1]
+        """The constant '1' is added at the end of the list."""
+        line += [1]
 
-        # añadimos la linea a la lista
-        lista.append(linea)
+        """The list is fill with the line"""
+        pt.append(line)
 
-    # devolvemos la lista ya creada
-    return lista
+    return pt
