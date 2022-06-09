@@ -11,6 +11,9 @@ def pascal_triangle(n):
     if n <= 0:
         return lista
 
+    if n == 1:
+        return [1]
+
     lista = [[1], [1, 1]]
 
     # bucle que se generara tantas veces como lineas vayamos a tener
