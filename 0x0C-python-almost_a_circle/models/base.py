@@ -29,6 +29,14 @@ class Base:
 
         return json.dumps(list_dictionaries)
 
+    def to_dictionary(self):
+        """Dictionary representation of a 'Rectangle'"""
+        return {"id": self.id,
+                "width": self.__width,
+                "height": self.__height,
+                "x": self.__x,
+                "y": self.__y}
+
     @classmethod
     def save_to_file(cls, list_objs):
         """Writes the JSON string representation of 'list_objs' to a file"""
