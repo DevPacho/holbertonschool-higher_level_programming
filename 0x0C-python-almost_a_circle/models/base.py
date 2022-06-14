@@ -29,14 +29,6 @@ class Base:
 
         return json.dumps(list_dictionaries)
 
-    def to_dictionary(self):
-        """Dictionary representation of a 'Square'"""
-
-        return {"id": self.id,
-                "size": self.width,
-                "x": self.x,
-                "y": self.y}
-
     @classmethod
     def save_to_file(cls, list_objs):
         """Writes the JSON string representation of 'list_objs' to a file"""
