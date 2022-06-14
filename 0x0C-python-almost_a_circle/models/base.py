@@ -34,7 +34,7 @@ class Base:
         """Writes the JSON string representation of 'list_objs' to a file"""
 
         save_list = []
-        filename = cls.__name__
+        filename = f"{cls.__name__}.json"
 
         if list_objs is None:
             return save_list
