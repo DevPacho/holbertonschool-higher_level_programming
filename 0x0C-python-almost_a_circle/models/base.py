@@ -62,12 +62,16 @@ class Base:
 
         return json.loads(json_string)
 
-    
     @classmethod
     def create(cls, **dictionary):
         """Returns an instance with all attributes already set"""
 
-        dummy = cls(5, 5)
-        dummy.update(**dictionary)
+        if cls.__name__ == "Rectangle":
+            dummy = cls(225, 534)
+            dummy.update(**dictionary)
+
+        if cls.__name__ == "Square":
+            dummy = cls(3333)
+            dummy.update(**dictionary)
 
         return dummy
