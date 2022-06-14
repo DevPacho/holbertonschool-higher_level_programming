@@ -6,25 +6,32 @@ from models.rectangle import Rectangle
 
 class Square(Rectangle):
     """Class constructor"""
+
     def __init__(self, size, x=0, y=0, id=None):
         """Constructor method with attributes"""
         super().__init__(size, size, x, y, id)
 
-    """'size' getter and setter"""
     @property
     def size(self):
+        """'size' getter in public"""
         return self.width
 
     @size.setter
     def size(self, value):
+        """'size' setter (operations and validations)"""
+
         self.width = value
         self.height = value
 
     def __str__(self):
+        """Represents the class objects as a string"""
+
         return "[Square] ({}) {}/{} - {}" \
             .format(self.id, self.x, self.y, self.width)
 
     def update(self, *args, **kwargs):
+        """Assigns an argument to each attribute"""
+
         args_len = len(args)
 
         if args:
@@ -49,6 +56,8 @@ class Square(Rectangle):
                     self.y = value
 
     def to_dictionary(self):
+        """Dictionary representation of a 'Square'"""
+
         return {"id": self.id,
                 "size": self.size,
                 "x": self.x,
