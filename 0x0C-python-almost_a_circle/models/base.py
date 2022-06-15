@@ -79,6 +79,7 @@ class Base:
 
     @classmethod
     def load_from_file(cls):
+        """Returns a list of instances"""
 
         filename = f"{cls.__name__}.json"
         file_exists = exists(filename)
