@@ -93,3 +93,34 @@ class Base:
                 for a in each_object:
                     list.append(cls.create(**a))
             return list
+
+    @classmethod
+    def save_to_file_csv(cls, list_objs):
+        """Serializes in CSV"""
+
+        save_list = []
+        filename = f"{cls.__name__}.csv"
+
+        if list_objs is not None:
+            for a in list_objs:
+                save_list.append(cls.to_dictionary(a))
+
+        with open(filename, "w", encoding="utf-8") as f:
+            f.write(cls.to_json_string(save_list))
+
+    @classmethod
+    def load_from_file_csv(cls):
+        """Deserializes in CSV"""
+
+        filename = f"{cls.__name__}.csv"
+        file_exists = exists(filename)
+        list = []
+
+        if not file_exists:
+            return list
+        else:
+            with open(filename, "r", encoding="utf-8") as f:
+                each_object = cls.from_json_string(f.read())
+                for a in each_object:
+                    list.append(cls.create(**a))
+            return list
