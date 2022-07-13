@@ -1,0 +1,4 @@
+-- Prints table description.
+-- Script that prints the full description of a table.
+
+DESC first_table;
