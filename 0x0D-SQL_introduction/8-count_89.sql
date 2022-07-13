@@ -3,5 +3,5 @@
 -- in the table 'first_table' of the database 'hbtn_0c_0'.
 
 SELECT COUNT(id) 
-FROM hbtn_0c_0
+FROM first_table
 WHERE id = 89;
