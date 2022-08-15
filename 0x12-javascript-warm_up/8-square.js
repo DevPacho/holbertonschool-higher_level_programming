@@ -15,5 +15,5 @@ if (!size) {
     }
     output += '\n';
   }
-  console.log(output);
+  console.log(output.trim());
 }
