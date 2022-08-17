@@ -9,6 +9,6 @@ axios.get(URL).then(function (response) {
 })
   .catch(function (error) {
     if (error.response) {
-      console.log(error.response.status);
+      console.log('code: ' + error.response.status);
     }
   });
