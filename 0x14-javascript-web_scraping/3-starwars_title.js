@@ -2,8 +2,8 @@
 
 const axios = require('axios').default;
 const Id = process.argv[2];
-const IdURL = `https://swapi-api.hbtn.io/api/films/${Id}`
+const IdURL = `https://swapi-api.hbtn.io/api/films/${Id}`;
 
-axios.get(IdURL).then(function (response) {
+axios.get(IdURL).then((response) => {
   console.log(response.data.title);
-})
+});
