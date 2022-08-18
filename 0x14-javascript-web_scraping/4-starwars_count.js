@@ -14,4 +14,4 @@ axios.get(ApiURL).then((response) => {
     }
   }
   console.log(times);
-})
+});
