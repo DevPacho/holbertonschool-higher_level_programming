@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" Listing all states from the database 'hbtn_0e_0_usa' Without ORM """
 
 import MySQLdb
 from sys import argv
