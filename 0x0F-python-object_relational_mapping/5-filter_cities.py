@@ -19,8 +19,8 @@ if __name__ == "__main__":
         WHERE states.name = %s ORDER BY cities.id", (
         argv[4],))
     query_rows = cur.fetchall()
-    formatted = ", ".join(row[0] for row in query_rows)
-    print(formatted)
+    output_formatted = ", ".join(row[0] for row in query_rows)
+    print(output_formatted)
 
     cur.close()
     conn.close()
