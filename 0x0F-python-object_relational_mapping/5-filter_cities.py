@@ -19,6 +19,6 @@ if __name__ == "__main__":
         argv[4],))
     query_rows = cur.fetchall()
     for row in query_rows:
-        print(row)
+        print(', '.join(city[0] for city in row))
     cur.close()
     conn.close()
