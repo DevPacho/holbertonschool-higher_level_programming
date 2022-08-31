@@ -13,9 +13,8 @@ if __name__ == "__main__":
                            passwd=argv[2],
                            db=argv[3])
     cur = conn.cursor()
-    query = "SELECT * FROM states WHERE name = '{}' \
-        ORDER BY states.id".format(argv[4])
-    cur.execute(query)
+    cur.execute("SELECT * FROM states WHERE name = '{}' \
+        ORDER BY states.id".format(argv[4]))
     query_rows = cur.fetchall()
     for row in query_rows:
         print(row)
