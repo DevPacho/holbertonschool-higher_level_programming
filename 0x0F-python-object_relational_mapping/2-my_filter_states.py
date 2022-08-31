@@ -18,6 +18,6 @@ if __name__ == "__main__":
     cur.execute(query)
     query_rows = cur.fetchall()
     for row in query_rows:
-            print(row)
+        print(row)
     cur.close()
     conn.close()
