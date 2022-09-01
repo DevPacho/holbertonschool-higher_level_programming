@@ -17,7 +17,8 @@ if __name__ == "__main__":
     Session_maker = sessionmaker(engine)
     session_instance = Session_maker()
 
-    new_state_object = State(name = "Louisiana")
+    new_state_object = State()
+    new_state_object.name = "Louisiana"
     session_instance.add(new_state_object)
     session_instance.commit()
     print(new_state_object.id)
