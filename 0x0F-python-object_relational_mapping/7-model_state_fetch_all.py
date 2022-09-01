@@ -8,13 +8,15 @@ from model_state import Base, State
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-engine = create_engine('mysql+mysqldb://{}:{}@localhost/{}'.format(
-    argv[1], argv[2], argv[3]), pool_pre_ping=True)
-Base.metadata.create_all(engine)
+if __name__ == "__main__":
 
-Session_maker = sessionmaker(engine)
-session_instance = Session_maker()
+    engine = create_engine('mysql+mysqldb://{}:{}@localhost/{}'.format(
+        argv[1], argv[2], argv[3]), pool_pre_ping=True)
+    Base.metadata.create_all(engine)
 
-for state in session_instance.query(State).order_by(State.id).all():
-    print("{}: {}".format(state.id, state.name))
-session_instance.close()
+    Session_maker = sessionmaker(engine)
+    session_instance = Session_maker()
+
+    for state in session_instance.query(State).order_by(State.id).all():
+        print("{}: {}".format(state.id, state.name))
+    session_instance.close()
