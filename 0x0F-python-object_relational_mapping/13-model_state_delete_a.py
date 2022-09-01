@@ -18,7 +18,7 @@ if __name__ == "__main__":
     session_instance = Session_maker()
 
     for match in session_instance.query(State).filter(
-            State.name.like(f"%a%")).all():
+            State.name.ilike(f"%a%")).all():
         if (match):
             session_instance.delete(match)
             session_instance.commit()
