@@ -18,7 +18,7 @@ if __name__ == "__main__":
     session_instance = Session_maker()
 
     table_in_list = session_instance.query(State).order_by(State.id).all()
-    if (State.__tablename__ is None):
+    if (State is None):
         print("Nothing")
     else:
         print(f"{table_in_list[0].id}: {table_in_list[0].name}")
