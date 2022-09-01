@@ -9,6 +9,7 @@ Base = declarative_base()
 
 
 class State(Base):
+    """Class definition of 'State' that inherits from 'Base'"""
     __tablename__ = 'states'
 
     id = Column(Integer(), primary_key=True, unique=True, nullable=False)
