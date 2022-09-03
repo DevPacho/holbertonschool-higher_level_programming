@@ -9,7 +9,8 @@ from sys import argv
 if __name__ == "__main__":
 
     url = argv[1]
-    email = parse.urlencode({"Your email is": argv[2]}).encode()
+    email = argv[2]
+    data_email = parse.urlencode({"email": email}).encode()
 
-    with request.urlopen(request.Request(url), email) as content:
+    with request.urlopen(request.Request(url), data_email) as content:
         print(content.read().decode())
