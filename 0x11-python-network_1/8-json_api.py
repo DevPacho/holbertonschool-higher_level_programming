@@ -10,7 +10,7 @@ if __name__ == "__main__":
     letter = argv[1]
     url = "http://0.0.0.0:5000/search_user"
 
-    if len(argv) > 1:
+    if len(argv) == 1:
         send_letter = requests.post(url, data={"q": letter})
     else:
         send_letter = requests.post(url, data={"q": ""})
