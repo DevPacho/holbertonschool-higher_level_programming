@@ -7,13 +7,19 @@ from sys import argv
 
 if __name__ == "__main__":
 
-    letter = argv[1]
     url = "http://0.0.0.0:5000/search_user"
 
     if len(argv) == 2:
-        send_letter = requests.post(url, data={"q": letter})
+        letter = argv[1]
+        check_args = 0
     else:
-        send_letter = requests.post(url, data={"q": ""})
+        letter = ""
+        check_args = 1
+
+    if check_args == 0:
+        send_letter = requests.post(url, data={"q": letter})
+    elif check_args == 1:
+        send_letter = requests.post(url, data={"q": letter})
 
     try:
         json_format = send_letter.json()
