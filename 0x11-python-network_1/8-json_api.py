@@ -16,7 +16,7 @@ if __name__ == "__main__":
         letter = ""
         check_args = 1
 
-    if check_args == 0:
+    if check_args == 0 and type(letter) is str:
         send_letter = requests.post(url, data={"q": letter})
     elif check_args == 1:
         send_letter = requests.post(url, data={"q": letter})
