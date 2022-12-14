@@ -8,6 +8,16 @@
  * Return: the address of the new node, or NULL if it failed.
  */
 
+/**
+ * APPROACH!
+ * insert_node - To insert in the middle, we need my data to be less than
+ * the previous one in the list and greater than the next one, it is not
+ * enough to validate only one option, take into account checkers when
+ * inserting at the beginning or end, besides saving the data already
+ * existing in the list in a temporary pointer so that they are not lost
+ * when entering the new ones.
+ */
+
 listint_t *insert_node(listint_t **head, int number)
 {
 	listint_t *new_node = NULL, *current_node;
@@ -37,12 +47,3 @@ listint_t *insert_node(listint_t **head, int number)
 
 	return (new_node);
 }
-
-/**
- * insert_node - To insert in the middle, we need my data to be less than
- * the previous one in the list and greater than the next one, it is not
- * enough to validate only one option, take into account checkers when
- * inserting at the beginning or end, besides saving the data already
- * existing in the list in a temporary pointer so that they are not lost
- * when entering the new ones.
- */
